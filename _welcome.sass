@@ -1,0 +1,48 @@
+#welcome
+    height: 100vh
+    width: 100vw
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg")
+    background-size: cover
+    background-position: center
+    display: flex
+    justify-content: center
+    align-items: center
+    background-repeat: no-repeat
+    .textbox
+        line-height: 1.6
+        flex-direction: column
+        text-align: center
+        h1
+            margin: 55px 0 0 0
+            font-size: 45px
+            font-style: italic
+            color: #ffff
+            &:hover
+                cursor: text
+        h3
+            font-size: 77px
+            font-weight: 700
+            color: #ffff
+            &:hover
+                cursor: text
+        .btn
+            margin: 40px 0 0 0
+            width: 220px
+            height: 70px
+            background-color: #ffc800
+            border-radius: 6px
+            h5
+                color: #ffff
+                font-size: 18px
+                font-weight: 700
+                &:hover
+                    cursor: pointer
+
+    @media screen and ( max-width: 900px )
+        .textbox
+            line-height: 1
+            h1
+                margin: 0 0 20px 0
+                font-size: 32px
+            h3
+                font-size: 60px
