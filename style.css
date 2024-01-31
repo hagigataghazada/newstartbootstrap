@@ -470,4 +470,62 @@ header .menu nav a:hover {
   font-size: 18px;
   font-style: italic;
   color: #6a7380;
+}
+#ourteam .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#ourteam .box .imgbox {
+  width: 225px;
+  height: auto;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+}
+#ourteam .box .textbox {
+  text-align: center;
+  line-height: 1.3;
+  margin: 20px 0;
+}
+#ourteam .box .textbox h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+#ourteam .box .textbox h4 {
+  font-size: 18px;
+  color: #6a7380;
+}
+#ourteam .box .ikon {
+  display: flex;
+  flex-direction: row;
+}
+#ourteam .box .ikon .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  background-color: #000;
+  border-radius: 100%;
+}
+#ourteam .box .ikon .icon i {
+  font-size: 15px;
+  color: white;
+}
+#ourteam .end {
+  text-align: center;
+  margin-top: 40px;
+  line-height: 1.5;
+  width: 700px;
+}
+#ourteam .end h4 {
+  font-size: 16px;
+  color: #6a7380;
+}
+@media screen and (max-width: 992px) {
+  #ourteam .box {
+    margin-bottom: 48px;
+  }
 }/*# sourceMappingURL=style.css.map */
