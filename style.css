@@ -234,6 +234,7 @@ header .menu nav a:hover {
 
 #about {
   padding: 100px 0;
+  @medi;
 }
 #about .first {
   margin-bottom: 60px;
@@ -256,7 +257,6 @@ header .menu nav a:hover {
 }
 #about .box {
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: flex-start;
   margin-left: 130px;
