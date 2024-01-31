@@ -1,63 +1,67 @@
 #ourteam
-    background-color: #f8f9fa
-    padding: 100px 0
-    .text-center
-        margin: 0 0 60px 0
-        line-height: 1.6
+    background-color: #c0c0c020
+    .textbox
+        margin-top: 100px
+        margin-bottom: 60px
+        line-height: 1.5
         h1
             font-size: 45px
             font-weight: 700
-            &:hover
-                cursor: text
         h3
             font-size: 18px
-            font-style: italic
             color: #6a7380
+            font-style: italic
+
     .box
-        display: flex
-        flex-direction: column
-        justify-content: center
-        align-items: center
         .imgbox
-            width: 225px
-            height: auto
-            border: 7px solid #e9ecef
+            width: 220px
             border-radius: 50%
+            border: 8px solid #87818131
         .textbox
             text-align: center
-            line-height: 1.3
-            margin: 20px 0
+            margin: 15px 0
             h2
                 font-size: 24px
                 font-weight: 700
             h4
                 font-size: 18px
                 color: #6a7380
-        .ikon
+        ul
             display: flex
-            flex-direction: row
-            .icon
-                display: flex
-                justify-content: center
-                align-items: center
-                width: 40px
-                height: 40px
-                margin: 0 10px
-                background-color: #000
-                border-radius: 100%
-                i
-                    font-size: 15px
-                    color: #ffff
-    .end
-        text-align: center
-        margin-top: 40px
-        line-height: 1.5
-        width: 700px
-        h4
-            font-size: 16px
+            justify-content: center
+            li
+                margin: 10px
+                .icon
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    cursor: pointer
+                    width: 50px
+                    height: 50px
+                    background-color: #000
+                    border-radius: 50%
+                    i
+                        color: #ffff
+    .textbox
+        p
+            font-size: 18px
             color: #6a7380
-    
-    @media screen and ( max-width: 992px )
+    @media screen and ( max-width: 576px)
+        .textbox
+            p
+                font-size: 16px
+
+    @media screen and ( max-width: 768px  )
+        .textbox
+            h3
+                font-size: 16px
+            p
+                padding: 0
         .box
-            margin-bottom: 48px
-            
+            ul
+                margin-bottom: 40px
+
+    @media screen and ( max-width: 992px )
+        .textbox
+            p
+                font-size: 18px
