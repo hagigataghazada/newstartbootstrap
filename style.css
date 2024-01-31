@@ -449,4 +449,25 @@ header .menu nav a:hover {
   #about .yellow .story .minibox h2 {
     font-size: 14px;
   }
+}
+
+#ourteam {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+#ourteam .text-center {
+  margin: 0 0 60px 0;
+  line-height: 1.6;
+}
+#ourteam .text-center h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+#ourteam .text-center h1:hover {
+  cursor: text;
+}
+#ourteam .text-center h3 {
+  font-size: 18px;
+  font-style: italic;
+  color: #6a7380;
 }/*# sourceMappingURL=style.css.map */
