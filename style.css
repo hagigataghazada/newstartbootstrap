@@ -9,34 +9,84 @@ body .imgbox img {
   width: 100%;
 }
 
-header {
-  width: 100%;
-  padding: 20px 0;
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  height: 70px;
   background-color: #212529;
   position: fixed;
-  top: 0;
-  z-index: 99;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
-header .menu .imgbox img {
-  width: 50%;
+header .menu .imgbox {
+  width: 140px;
+  margin-left: 120px;
 }
-header .menu .imgbox img:hover {
+header .menu .btn {
+  color: white;
+  display: flex;
+  align-items: center;
+  display: none;
+  border: 1px solid rgba(255, 255, 255, 0.6470588235);
+  padding: 2px;
+  opacity: 0.6;
+}
+header .menu .btn h5 {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;
+}
+header .menu .btn .icon {
+  margin-left: 7px;
   cursor: pointer;
 }
 header .menu nav {
-  display: block;
+  margin-right: 120px;
 }
 header .menu nav a {
-  margin: 0 13px;
-  color: #d2d2d4;
-  font-size: 16px;
+  font-size: 19px;
+  margin: 0 20px;
+  cursor: pointer;
 }
 header .menu nav a:hover {
-  cursor: pointer;
+  color: #ffcb11;
+}
+@media screen and (max-width: 576px) {
+  header .menu {
+    height: 70px;
+  }
+  header .menu .btn {
+    margin-right: 10px;
+    padding: 6px 10px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    margin-right: 30px;
+  }
+  header .menu .imgbox {
+    margin-left: 20px;
+  }
 }
 @media screen and (max-width: 992px) {
   header .menu nav {
-    display: none;
+    margin-right: 55px;
+  }
+  header .menu nav a {
+    margin: 0 10px;
+  }
+  header .menu .imgbox {
+    margin-left: 40px;
   }
 }
 
@@ -609,6 +659,9 @@ header .menu nav a:hover {
 @media screen and (max-width: 768px) {
   #contact .textbox {
     margin-top: 15px;
+  }
+  #contact .btn {
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 576px) {
