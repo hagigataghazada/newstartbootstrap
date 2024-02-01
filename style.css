@@ -606,7 +606,7 @@ header .menu nav a:hover {
   }
 }
 
-#sponsors #sponsors {
+#sponsors {
   padding: 60px 0;
 }
 #sponsors .box {
@@ -615,13 +615,13 @@ header .menu nav a:hover {
   margin: 0 50px;
 }
 #sponsors .box .imgbox {
-  width: 120px;
+  width: 130px;
 }
 #sponsors .box .microsoft {
-  width: 150px;
+  width: 200px;
 }
 #sponsors .box .ibm {
-  width: 100px;
+  width: 120px;
 }
 #sponsors .box .facebook {
   width: 150px;
