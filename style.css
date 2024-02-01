@@ -59,23 +59,48 @@ header .menu nav a:hover {
     height: 70px;
   }
   header .menu .btn {
-    margin-right: 10px;
-    padding: 6px 10px;
+    margin: 0;
+    padding: 0;
+  }
+  header .menu .btn h5 {
+    font-size: 11px;
+  }
+  header .menu .btn .icon i {
+    font-size: 10px;
   }
   header .menu .imgbox {
-    margin-left: 20px;
+    margin-left: 0;
+    margin-right: 30px;
   }
 }
 @media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 60px;
+  }
+  header .menu {
+    padding: 0 40px;
+  }
   header .menu nav {
     display: none;
   }
   header .menu .btn {
     display: flex;
     margin-right: 30px;
+    padding: 8px;
+  }
+  header .menu .btn h5 {
+    font-size: 13px;
+  }
+  header .menu .btn .icon i {
+    font-size: 13px;
   }
   header .menu .imgbox {
     margin-left: 20px;
+  }
+}
+@media screen and (max-width: 665px) {
+  header .menu {
+    padding: 0;
   }
 }
 @media screen and (max-width: 992px) {
@@ -581,24 +606,58 @@ header .menu nav a:hover {
   }
 }
 
-#sponsors {
+#sponsors #sponsors {
   padding: 60px 0;
 }
 #sponsors .box {
-  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
 }
 #sponsors .box .imgbox {
   width: 120px;
 }
 #sponsors .box .microsoft {
-  width: 200px;
+  width: 150px;
 }
 #sponsors .box .ibm {
   width: 100px;
 }
-@media screen and (max-width: 576px) {
+#sponsors .box .facebook {
+  width: 150px;
+}
+@media screen and (max-width: 768px) {
+  #sponsors .box {
+    margin: 20px;
+  }
   #sponsors .box .imgbox {
-    margin-top: 50px;
+    width: 120px;
+  }
+  #sponsors .box .microsoft {
+    width: 150px;
+  }
+  #sponsors .box .ibm {
+    width: 100px;
+  }
+  #sponsors .box .facebook {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #sponsors {
+    padding: 50px 0;
+  }
+  #sponsors .box .imgbox {
+    width: 130px;
+  }
+  #sponsors .box .microsoft {
+    width: 200px;
+  }
+  #sponsors .box .ibm {
+    width: 110px;
+  }
+  #sponsors .box .facebook {
+    width: 180px;
   }
 }
 
@@ -606,6 +665,7 @@ header .menu nav a:hover {
   background-image: url(assets/mapimage.png);
   background-color: #212529;
   background-position: center center;
+  padding: 40px 0;
 }
 #contact .box {
   color: white;
@@ -644,8 +704,9 @@ header .menu nav a:hover {
 }
 #contact .btn {
   width: 200px;
-  height: 50px;
-  margin-bottom: 20px;
+  height: 60px;
+  border-radius: 6px;
+  margin-bottom: 50px;
   background-color: #ffc021;
   opacity: 0.7;
   color: white;
@@ -655,13 +716,14 @@ header .menu nav a:hover {
 }
 #contact .btn h2 {
   font-weight: 700;
+  font-size: 18px;
 }
 @media screen and (max-width: 768px) {
   #contact .textbox {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   #contact .btn {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 576px) {
