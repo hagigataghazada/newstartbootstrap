@@ -580,12 +580,16 @@ header .menu nav a:hover {
 #ourteam .box ul li .icon i {
   color: white;
 }
-#ourteam .textbox p {
+#ourteam .wid {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+#ourteam .wid p {
   font-size: 18px;
   color: #6a7380;
 }
 @media screen and (max-width: 576px) {
-  #ourteam .textbox p {
+  #ourteam .wid p {
     font-size: 16px;
   }
 }
@@ -593,15 +597,18 @@ header .menu nav a:hover {
   #ourteam .textbox h3 {
     font-size: 16px;
   }
-  #ourteam .textbox p {
+  #ourteam .wid {
+    margin-top: 0;
+  }
+  #ourteam .wid p {
     padding: 0;
   }
   #ourteam .box ul {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 992px) {
-  #ourteam .textbox p {
+  #ourteam .wid p {
     font-size: 18px;
   }
 }
