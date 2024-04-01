@@ -690,7 +690,6 @@ header .menu nav a:hover {
 #contact .place {
   display: flex;
   flex-direction: column;
-  margin-top: 44px;
 }
 #contact .place input {
   margin: 14px 0;
@@ -700,14 +699,17 @@ header .menu nav a:hover {
 }
 #contact .textbox {
   display: flex;
-  margin-top: 55px;
   font-size: 20px;
+  padding: 10px 0;
+  width: 100%;
+  height: 100%;
 }
 #contact .textbox textarea {
   color: #a1a1a1;
   border-radius: 5px;
   font-weight: 700;
   padding: 18px;
+  width: 100%;
 }
 #contact .btn {
   width: 200px;
@@ -726,9 +728,6 @@ header .menu nav a:hover {
   font-size: 18px;
 }
 @media screen and (max-width: 768px) {
-  #contact .textbox {
-    margin-top: 20px;
-  }
   #contact .btn {
     margin-top: 40px;
   }
